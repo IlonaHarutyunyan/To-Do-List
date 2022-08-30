@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@300&display=swap');
+
+.rowTask{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 50px;
+    color: white;
+    padding: 0 15px;
+    margin: 2px 0;
+    background-color: rgb(161, 174, 235);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+.completeTask{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 50px;
+    color: white;
+    padding: 0 15px;
+    margin: 2px 0;
+    background-color: rgb(161, 174, 235);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: line-through;
+    opacity: 0.4;
+    cursor: pointer;
+}
+.taskRemoveIcon{
+    font-size: 25px;
+}
